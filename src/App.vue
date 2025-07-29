@@ -5,10 +5,10 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/projetos">Projetos</router-link> |
         <router-link to="/sobre">Sobre Mim</router-link>
-        </nav>
+      </nav>
     </header>
     <main class="content">
-      <router-view/>
+      <router-view />
     </main>
     <footer class="footer">
       <p>&copy; {{ currentYear }} thayllaa. Todos os direitos reservados.</p>
@@ -21,9 +21,9 @@ export default {
   name: 'App',
   data() {
     return {
-      currentYear: new Date().getFullYear()
-    };
-  }
+      currentYear: new Date().getFullYear(),
+    }
+  },
 }
 </script>
 

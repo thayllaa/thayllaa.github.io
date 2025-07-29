@@ -1,29 +1,47 @@
 <template>
   <div class="projects-page">
     <h1>Meus Projetos</h1>
-    <p>Aqui você encontrará alguns dos meus trabalhos mais recentes, destacando minhas habilidades Fullstack.</p>
+    <p>
+      Aqui você encontrará alguns dos meus trabalhos mais recentes, destacando minhas habilidades
+      Fullstack.
+    </p>
 
     <div class="project-card">
       <h2>Nome do Projeto 1</h2>
-      <p class="description">Uma breve descrição do projeto, o problema que ele resolveu e o que você aprendeu.</p>
+      <p class="description">
+        Uma breve descrição do projeto, o problema que ele resolveu e o que você aprendeu.
+      </p>
       <div class="tech-stack">
         <h3>Tecnologias:</h3>
         <p><strong>Frontend:</strong> Vue.js, Vue Router, Axios, Sass</p>
         <p><strong>Backend:</strong> Node.js, Express, MongoDB, Mongoose, JWT</p>
       </div>
       <div class="project-links">
-        <a href="LINK_PARA_DEMO_AO_VIVO" target="_blank" rel="noopener noreferrer" class="btn-demo">Ver Demo</a>
-        <a href="LINK_PARA_REPOSITORIO_FRONTEND" target="_blank" rel="noopener noreferrer" class="btn-github">GitHub Frontend</a>
-        <a href="LINK_PARA_REPOSITORIO_BACKEND" target="_blank" rel="noopener noreferrer" class="btn-github">GitHub Backend</a>
+        <a href="LINK_PARA_DEMO_AO_VIVO" target="_blank" rel="noopener noreferrer" class="btn-demo"
+          >Ver Demo</a
+        >
+        <a
+          href="LINK_PARA_REPOSITORIO_FRONTEND"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-github"
+          >GitHub Frontend</a
+        >
+        <a
+          href="LINK_PARA_REPOSITORIO_BACKEND"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-github"
+          >GitHub Backend</a
+        >
       </div>
-      </div>
-
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'ProjetosView'
+  name: 'ProjetosView',
 }
 </script>
 
@@ -49,7 +67,7 @@ export default {
     padding: 30px;
     margin-bottom: 30px;
     background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     text-align: left; /* Alinhar texto à esquerda dentro do card */
     max-width: 900px;
     margin-left: auto;

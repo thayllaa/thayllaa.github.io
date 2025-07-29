@@ -7,24 +7,24 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
   },
   {
     path: '/projetos',
     name: 'projetos',
-    component: ProjetosView
+    component: ProjetosView,
   },
   {
     path: '/sobre',
     name: 'sobre',
-    component: SobreMimView
-  }
+    component: SobreMimView,
+  },
   // Você pode adicionar mais rotas aqui, como /contato
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
 })
 
 export default router

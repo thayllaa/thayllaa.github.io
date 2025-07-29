@@ -1,17 +1,22 @@
 <template>
   <div class="home-page">
     <h1>Olá, sou thayllaa</h1>
-    <p class="subtitle">Desenvolvedor Fullstack focado em [sua principal habilidade/tecnologia, ex: JavaScript e
-      Node.js]</p>
-    <img src="/thayllaa_avatar-perfil.png" alt="thayllaa avatar" class="avatar">
-    <p>Bem-vindo ao meu portfólio. Aqui você encontrará meus projetos mais recentes e minhas habilidades.</p>
+    <p class="subtitle">
+      Desenvolvedor Fullstack focado em [sua principal habilidade/tecnologia, ex: JavaScript e
+      Node.js]
+    </p>
+    <img src="../assets/thayllaa_avatar-perfil.png" alt="thayllaa avatar" class="avatar" />
+    <p>
+      Bem-vindo ao meu portfólio. Aqui você encontrará meus projetos mais recentes e minhas
+      habilidades.
+    </p>
     <router-link to="/projetos" class="btn-primary">Ver Meus Projetos</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
 }
 </script>
 
