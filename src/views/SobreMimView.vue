@@ -22,9 +22,9 @@
         <h3>Frontend</h3>
         <ul>
           <li>Vue.js</li>
-          <li>React (se souber)</li>
+          <li>React</li>
           <li>HTML5, CSS3, Sass/SCSS</li>
-          <li>JavaScript (ES6+)</li>
+          <li>JavaScript</li>
           <li>Consumo de APIs RESTful</li>
         </ul>
       </div>
@@ -34,7 +34,6 @@
           <li>Node.js (Express.js)</li>
           <li>APIs RESTful</li>
           <li>Bancos de Dados SQL (PostgreSQL, MySQL)</li>
-          <li>Bancos de Dados NoSQL (MongoDB)</li>
           <li>Autenticação (JWT)</li>
         </ul>
       </div>
@@ -42,8 +41,7 @@
         <h3>Ferramentas e Outros</h3>
         <ul>
           <li>Git & GitHub</li>
-          <li>Docker (se souber)</li>
-          <li>Cloud (AWS/GCP/Azure - se souber)</li>
+          <li>Cloud (AWS/GCP/Azure)</li>
           <li>Metodologias Ágeis</li>
           <li>Linux</li>
         </ul>

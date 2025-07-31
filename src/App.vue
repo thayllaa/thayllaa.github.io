@@ -5,7 +5,7 @@
         <router-link to="/">Home</router-link>
         <router-link to="/projetos">Projetos</router-link>
         <router-link to="/sobre">Sobre Mim</router-link>
-        </nav>
+      </nav>
     </header>
     <main class="content">
       <router-view />
@@ -29,6 +29,12 @@ export default {
 
 <style lang="scss">
 /* Estilos globais básicos para o layout */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +49,7 @@ export default {
 .navbar {
   padding: 30px;
   background-color: #f8f8f8; /* Cor de fundo para a barra de navegação */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
 
   nav {
     display: flex; /* Para alinhar os links horizontalmente */
@@ -58,7 +64,7 @@ export default {
     padding: 10px 15px; /* Preenchimento para parecer um botão */
     border-radius: 5px; /* Cantos arredondados */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
-    
+
     // Efeito de Hover
     &:hover {
       background-color: #42b983; /* Cor de fundo ao passar o mouse */
@@ -67,7 +73,7 @@ export default {
 
     // Estilo para o link ativo (página atual)
     &.router-link-exact-active {
-      background-color: #369b6b; /* Uma cor um pouco mais escura para o ativo */
+      background-color: #2f885e; /* Uma cor um pouco mais escura para o ativo */
       color: white; /* Cor do texto para o ativo */
     }
   }
